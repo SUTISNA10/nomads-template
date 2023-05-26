@@ -247,6 +247,21 @@ header .btn-get-started:hover {
   font-size: 18px;
   color: #B1B1B1;
 }
+.section-details-content .card-details .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .card-details .gallery .xzoom-container .xzoom {
+  width: 100%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+.section-details-content .card-details .gallery .xzoom-thumbs .xactive {
+  border: 4px solid #1ABC9C;
+  box-shadow: none;
+}
+.section-details-content .card-details .gallery .xzoom-thumbs a:hover {
+  text-decoration: none;
+}
 .section-details-content .features {
   margin-top: 20px;
 }
