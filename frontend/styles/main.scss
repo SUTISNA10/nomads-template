@@ -300,7 +300,7 @@ header{
             font-size: 18px;
             color: #B1B1B1;
         }
-
+        
         // Bagian Gallery
         .gallery{
             .xzoom-container{
@@ -327,33 +327,85 @@ header{
             }
 
         }
+        // Bagian features
+        .features{
+            margin-top: 20px;
+
+            .features-image{
+                width: 45px;
+                height: 45px;
+                float:left;
+            }
+
+            .description{
+                margin-left: 10px;
+                overflow: hidden;
+                float: left;
+
+                h3{
+                    font-size: 18px;
+                    color: #071C4D;
+                    margin-bottom: 0;
+                }
+                p{
+                    margin-bottom: 0;
+                }
+            }            
+            
+        }
     }
     
-    .features{
-        margin-top: 20px;
+    // Members trip information
+    .card-right{
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 0;
 
-        .features-image{
-            width: 45px;
-            height: 45px;
-            float:left;
+        h2{
+            font-size: 20px;
+            color: #071C4D;
+            font-weight:700;
         }
 
-        .description{
-            margin-left: 10px;
-            overflow: hidden;
-            float: left;
-
-            h3{
-                font-size: 18px;
-                color: #071C4D;
-                margin-bottom: 0;
-            }
-            p{
-                margin-bottom: 0;
+        .members{
+            .member-image{
+                width: 40px;
+                height: 40px;
             }
         }
 
-        
-        
+        .trip-informations{
+            tr{
+                th{
+                    font-size: 18px;
+                    color: #071C4D;
+                    font-weight: normal;
+                }
+                td{
+                    font-size: 18px;
+                    color: #B1B1B1;
+                    font-weight: lighter;
+                }
+            }
+        }
     }
+
+    // Button Join Now
+    .join-container{
+        margin-top: -16px;
+
+        .btn-join-now{
+            background-color: #FF9E53;
+            color: #FFFFFF;
+            border-radius: 0;
+
+            &:hover{
+                background-color: #FFAA69;
+                color: #ffffff;
+            }
+        }
+    }
+    
+    
 }
+

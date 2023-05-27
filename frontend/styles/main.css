@@ -262,24 +262,60 @@ header .btn-get-started:hover {
 .section-details-content .card-details .gallery .xzoom-thumbs a:hover {
   text-decoration: none;
 }
-.section-details-content .features {
+.section-details-content .card-details .features {
   margin-top: 20px;
 }
-.section-details-content .features .features-image {
+.section-details-content .card-details .features .features-image {
   width: 45px;
   height: 45px;
   float: left;
 }
-.section-details-content .features .description {
+.section-details-content .card-details .features .description {
   margin-left: 10px;
   overflow: hidden;
   float: left;
 }
-.section-details-content .features .description h3 {
+.section-details-content .card-details .features .description h3 {
   font-size: 18px;
   color: #071C4D;
   margin-bottom: 0;
 }
-.section-details-content .features .description p {
+.section-details-content .card-details .features .description p {
   margin-bottom: 0;
+}
+.section-details-content .card-right {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 0;
+}
+.section-details-content .card-right h2 {
+  font-size: 20px;
+  color: #071C4D;
+  font-weight: 700;
+}
+.section-details-content .card-right .members .member-image {
+  width: 40px;
+  height: 40px;
+}
+.section-details-content .card-right .trip-informations tr th {
+  font-size: 18px;
+  color: #071C4D;
+  font-weight: normal;
+}
+.section-details-content .card-right .trip-informations tr td {
+  font-size: 18px;
+  color: #B1B1B1;
+  font-weight: lighter;
+}
+.section-details-content .join-container {
+  margin-top: -16px;
+}
+.section-details-content .join-container .btn-join-now {
+  background-color: #FF9E53;
+  color: #FFFFFF;
+  border-radius: 0;
+}
+.section-details-content .join-container .btn-join-now:hover {
+  background-color: #FFAA69;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
