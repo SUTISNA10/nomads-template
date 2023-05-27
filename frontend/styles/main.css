@@ -283,6 +283,30 @@ header .btn-get-started:hover {
 .section-details-content .card-details .features .description p {
   margin-bottom: 0;
 }
+.section-details-content .card-details .member .gj-datepicker .datepicker {
+  border-right: 0;
+}
+.section-details-content .card-details .member .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+}
+.section-details-content .card-details .member .btn-add-now {
+  background-color: #071C4D;
+  color: #FFFFFF;
+}
+.section-details-content .card-details .member .btn-add-now:hover {
+  background-color: #1E3771;
+  color: #FFFFFF;
+}
+.section-details-content .card-details .member h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #071C4D;
+}
+.section-details-content .card-details .member .disclaimer {
+  font-size: 14px;
+  color: #B1B1B1;
+  font-weight: lighter;
+}
 .section-details-content .card-right {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -291,7 +315,7 @@ header .btn-get-started:hover {
 .section-details-content .card-right h2 {
   font-size: 20px;
   color: #071C4D;
-  font-weight: 700;
+  font-weight: 500;
 }
 .section-details-content .card-right .members .member-image {
   width: 40px;
@@ -300,7 +324,7 @@ header .btn-get-started:hover {
 .section-details-content .card-right .trip-informations tr th {
   font-size: 18px;
   color: #071C4D;
-  font-weight: normal;
+  font-weight: 300;
 }
 .section-details-content .card-right .trip-informations tr td {
   font-size: 18px;

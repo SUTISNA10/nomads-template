@@ -353,6 +353,44 @@ header{
             }            
             
         }
+
+        // Halaman Checkout
+        // Bagian Member
+        .member{
+            .gj-datepicker{
+                .datepicker{
+                    border-right: 0;
+                }
+
+                .input-group-append{
+                    .btn{
+                        padding-right: 30px;
+                    }
+                }
+            }
+
+            .btn-add-now{
+                background-color: #071C4D;
+                color: #FFFFFF;
+
+                &:hover{
+                    background-color: #1E3771;
+                    color: #FFFFFF;
+                }
+            }
+
+            h3{
+                font-weight: 600;
+                font-size: 14px;
+                color: #071C4D;
+            }
+
+            .disclaimer{
+                font-size: 14px;
+                color: #B1B1B1;
+                font-weight: lighter;
+            }
+        }
     }
     
     // Members trip information
@@ -364,7 +402,7 @@ header{
         h2{
             font-size: 20px;
             color: #071C4D;
-            font-weight:700;
+            font-weight:500;
         }
 
         .members{
@@ -379,7 +417,7 @@ header{
                 th{
                     font-size: 18px;
                     color: #071C4D;
-                    font-weight: normal;
+                    font-weight: 300;
                 }
                 td{
                     font-size: 18px;
