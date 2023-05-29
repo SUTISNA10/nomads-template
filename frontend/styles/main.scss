@@ -422,7 +422,55 @@ header{
                 td{
                     font-size: 18px;
                     color: #B1B1B1;
-                    font-weight: lighter;
+                    font-weight: lighter;                    
+                }
+
+                .text-total{
+                    .text-blue{
+                        color: #071C4D !important;
+                        font-weight: bold ;
+                    }
+                    .text-orange{
+                        color: #FF9E53;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        // Payment Instructions
+        .payment-instructions{
+            font-weight: 300;
+            font-size: 14px;
+            color: #B1B1B1;
+        }
+
+        // Bank
+        .bank{
+            .bank-item{
+
+                .bank-image{
+                    width: 45px;
+                    height: 45px;
+                    float: left;
+                }
+
+                .description{
+                    margin-left: 10px;
+                    overflow: hidden;
+                    float: left;
+
+                    h3{
+                        font-size: 18px;
+                        color: #071C4D;
+                        margin-bottom: 0;
+                    }
+                    p{
+                        font-weight: normal;
+                        font-size: 16px;
+                        color: #071C4D;
+                        margin-bottom: 0;
+                    }
                 }
             }
         }
