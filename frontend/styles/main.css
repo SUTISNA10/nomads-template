@@ -376,4 +376,31 @@ header .btn-get-started:hover {
 .section-details-content .join-container .btn-join-now:hover {
   background-color: #FFAA69;
   color: #ffffff;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #071C4D;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #B1B1B1;
+}
+.section-success .btn-home-page {
+  background-color: #071C4D;
+  color: #FFFFFF;
+  border-radius: 4px;
+}
+.section-success .btn-home-page:hover {
+  background-color: #1E3771;
+  color: #FFFFFF;
+}
+.section-success .img-success {
+  width: 266px;
+  height: 266px;
 }/*# sourceMappingURL=main.css.map */
